@@ -1,0 +1,148 @@
+.ticket__title{
+    padding: 32px 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+
+.ticket-info{
+    margin: 20px 34px;
+}
+
+.ticket{    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticket__title{
+    padding-bottom: 48px;
+}
+
+.ticket th:first-child{
+    padding: 0 250px 20px 0px; 
+}
+
+.ticket th:nth-child(2){
+    padding: 0 170px 20px 25px;
+}
+
+.ticket th:nth-child(3){
+    padding: 0 165px 20px 18px;
+}
+
+.ticket th:nth-child(4){
+    padding: 0 170px 20px 30px;
+}
+
+.ticket td{
+    border-top: 1px solid #DFE0EB;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.left-side{
+    border-left: 1px solid #DFE0EB;
+}
+
+.right-side{
+    border-right: 1px solid #DFE0EB;
+}
+
+.customer__name{
+    margin-left: 30px;
+}
+
+.ticket td{
+    padding: 24px 20px;
+}
+
+.client-info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.client-info img{
+    cursor: pointer;
+}
+
+thead td{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+tbody p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+.client-info span,
+.customer__name span,
+.date span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+
+.priority{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.priority button{
+    padding: 5px 12px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.high{
+    background: #F12B2C;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.low{
+    background: #FEC400;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.normal{
+    background: #29CC97;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.priority img{
+    cursor: pointer;
+}

@@ -1,0 +1,122 @@
+main {
+    width: 100%;
+    top: var(--header-height);
+    padding-right: var(--aside-width);
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.overview-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview__title h1{
+    padding-left: 28px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.overview__btns{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.frst__btn {
+    padding: 8px 28px;
+    font-size: 20px;
+    color: #9DADB9;
+    background: #EEF2F5;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.last__btn{
+    padding: 10px 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(16, 205, 69, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clients{
+    padding: 50px 50px;
+    margin: 50px 50px;
+    border-collapse: collapse; 
+}
+
+.clients td{
+    padding: 24px 20px;
+}
+
+.clients th:first-child{
+    padding: 0 245px 20px 15px; 
+}
+
+.clients th:nth-child(2){
+    padding: 0 160px 20px 15px;
+}
+
+.clients th:nth-child(3){
+    padding: 0 160px 20px 15px;
+}
+
+.clients th:nth-child(4){
+    padding: 0 160px 20px 20px;
+}
+
+.clients th:nth-child(5){
+    padding: 0 65px 20px 15px;
+}
+
+.clients tr:nth-child(odd):not(.except){
+    background: rgba(238, 242, 245, 0.4)
+}
+
+thead th{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #878787;
+}
+
+.person-info{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clients td{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #414141;
+}
+
+.clients .grow{
+    color: #00CA39;
+}
+
+.clients .fall{
+    color: #E44067;
+}

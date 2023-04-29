@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --aside-width: 220px;
+  --header-height: 100px;
+  --footer-height: 30px;
+  --close-time: 0.5s;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+main::-webkit-scrollbar,
+aside::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+main::-webkit-scrollbar-track,
+aside::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+main::-webkit-scrollbar-thumb,
+aside::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+header,
+footer,
+main {
+  position: fixed;
+  margin-left: var(--aside-width);
+  transition: var(--close-time);
+  -webkit-transition: var(--close-time);
+  -moz-transition: var(--close-time);
+  -ms-transition: var(--close-time);
+  -o-transition: var(--close-time);
+}
+
+header,
+main {
+  padding: 15px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: var(--footer-height);
+}
+
+.dark * {
+  color: black;
+}
+
+.dark .hamburger svg {
+  fill: black;
+}
+
+.dark header,
+.dark main{
+  background-color: #363740;
+}
+
+.dark aside {
+  border-color: #363740;
+}
+
+.dark .nav-item svg path{
+  fill: black;
+}
+
+.dark .clients tr:nth-child(odd):not(.except){
+  background: #363740;
+}
+
+.dark thead th,
+.dark .admin__name,
+.dark .overview__title h1,
+.dark .ticket__title{
+  color: #DDE2FF;
+}
+
+.dark .clients span,
+.dark .ticket p {
+  color: #A4A6B3;
+}
+
+.dark .clients .grow{
+  color: #00CA39;
+}
+
+.dark .clients .fall{
+  color: #E44067;
+}
+
+.dark .client-info span,
+.dark .customer__name span,
+.dark .date span{
+  color:black;
+}

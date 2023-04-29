@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.hamburger {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: var(--header-height);
+    padding-right: calc(var(--aside-width) + 40px);
+}
+
+.admin-info{
+    display: flex;
+    align-items: center;
+}
+
+.admin-info img{
+    cursor: pointer;
+}
+
+.admin__name{
+    margin-right: 16px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+
+
